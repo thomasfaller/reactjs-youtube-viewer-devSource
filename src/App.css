@@ -1,0 +1,72 @@
+h1,h2,h3,h4,h5,h6,p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  padding: 0; margin: 0 auto;
+}
+
+@media screen and (min-width: 480px) {
+  .App {max-width: 100%;}
+}
+@media screen and (min-width: 768px) and (max-width: 980px) {
+  .App {max-width: 90%;}
+  .video-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .media-body {
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .App {width: 80%;}
+}
+@media screen and (min-width: 1450px) {.App {width: 65%;}}
+
+.jumbotron {
+  padding: 30px 0px;
+  margin-left: 0 !important; margin-right: 0 !important;
+}
+
+.search-bar {
+  margin: 20px 20px 35px 20px;
+  text-align: center;
+}
+
+.search-bar img {
+  margin-bottom: 20px;
+  max-width:65px;
+  max-height:65px;
+  width: auto;
+  height: auto;
+}
+
+.search-bar input {
+  margin-top: 10px;
+  width: 50%;
+}
+
+.video-detail .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.video-detail .details span {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
+}
+
+.media-heading p {
+  font-size: .75rem;
+}
