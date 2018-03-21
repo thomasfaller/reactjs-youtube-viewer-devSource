@@ -43,5 +43,5 @@ This is the individual `<li>` items from the search results. I used the `String.
  
 ## API
 
-I used the youtube-search-api available [here](https://www.npmjs.com/package/youtube-api-search) built on [Axios](https://www.npmjs.com/package/axios).
+I used the [youtube-search-api](https://www.npmjs.com/package/youtube-api-search) built on [Axios](https://www.npmjs.com/package/axios).
 
